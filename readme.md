@@ -1,8 +1,8 @@
 # Programming II
 
-## Lab 2: String and Scanners
+## Lab 2: Strings and Arrays
 
-In this lab, you will practice for-each loops (aka enhanced for loops), String operations and using the Scanner to get data from a file.
+In this lab, you will practice for-each loops (aka enhanced for loops), array operations, and String operations.
 
 This lab is used in CS 222 at Saint Mary's College of California. Written by Dr. Sarah Roscoe in 2024.
 
