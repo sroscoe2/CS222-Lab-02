@@ -4,6 +4,8 @@
 
 In this lab, you will practice for-each loops (aka enhanced for loops), String operations and using the Scanner to get data from a file.
 
+This lab is used in CS 222 at Saint Mary's College of California. Written by Dr. Sarah Roscoe in 2024.
+
 # Instructions
 
 1. Clone this lab from Github. Use this link: <https://github.com/sroscoe2/CS222-Lab-02.git> Refer to Lab 1 if you need a refresher for how to do so. REMEMBER: when importing, name your folder `firstnameLI-CS222-Lab-02`
