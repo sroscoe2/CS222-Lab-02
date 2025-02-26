@@ -12,7 +12,7 @@ public class Middle {
 		// convert a to char array
 		char[] result = a.toCharArray();
 		
-		// TODO: call reallocate() with result and b.length()
+		// TODO: call reallocate() with result and a.length()+b.length()
 		
 		// use a loop to add characters in b to result
 		char[] bchar = b.toCharArray();
