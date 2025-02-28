@@ -14,7 +14,7 @@ This lab is used in CS 222 at Saint Mary's College of California. Written by Dr.
 
 2. [Explanation](#for-each-loopsenhanced-for-loops) [Hints](#explaining-code) Open `Beginning.java`. Look at the `findNumberInArray()` method. In the comment space provided, write out in plain words what the loop is doing.
 
-3. [Hints](#getting-even-numbers) Look at `getEvenNumbers()`. Using a for-each loop and the modulo `%` operator, implement the method so it returns an array full of even numbers, 0 through 10.
+3. [Hints](#getting-even-numbers) Implement `getEvenNumbers()`, which is a `static` method, and returns `int[]`. Using a for-each loop and the modulo `%` operator, implement the method so it returns an array full of even numbers, 0 through 10.
 
 4. [Explanation](#doing-things-with-strings) Look at `findLetterInString()`. Write a for-each loop that goes through the provided `String` and figure out if a given letter `target` is in that String. Use `s.toCharArray()` to convert the string to an array, then examine the equality of individual `char`s.
 
