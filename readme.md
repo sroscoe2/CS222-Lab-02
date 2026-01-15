@@ -14,33 +14,33 @@ This lab is used in CS 222 at Saint Mary's College of California. Written by Dr.
 
 2. [Explanation](#for-each-loopsenhanced-for-loops) [Hints](#explaining-code) Open `Beginning.java`. Look at the `findNumberInArray()` method. In the comment space provided, write out in plain words what the loop is doing.
 
-3. [Hints](#getting-even-numbers) Implement `getEvenNumbers()`, which is a `static` method, and returns `int[]`. Using a for-each loop and the modulo `%` operator, implement the method so it returns an array full of even numbers, 0 through 10.
+<!--- 3. [Hints](#getting-even-numbers) Implement `getEvenNumbers()`, which is a `static` method, and returns `int[]`. Using a for-each loop and the modulo `%` operator, implement the method so it returns an array full of even numbers, 0 through 10. --->
 
-4. [Explanation](#doing-things-with-strings) Look at `findLetterInString()`. Write a for-each loop that goes through the provided `String` and figure out if a given letter `target` is in that String. Use `s.toCharArray()` to convert the string to an array, then examine the equality of individual `char`s.
+3. [Explanation](#doing-things-with-strings) Look at `findLetterInString()`. Write a for-each loop that goes through the provided `String` and figure out if a given letter `target` is in that String. Use `s.toCharArray()` to convert the string to an array, then examine the equality of individual `char`s.
 
-5. [Explanation](#explaining-code) Write comments for your method. From this point forward, assume this is a requirement for every piece of code you write.
+4. [Explanation](#explaining-code) Write comments for your method. From this point forward, assume this is a requirement for every piece of code you write.
 
-6. Run `BeginningTests.java` and ensure all test cases pass. Refer to Lab 1 for instructions on running JUnit tests.
+5. Run `BeginningTests.java` and ensure all test cases pass. Refer to Lab 1 for instructions on running JUnit tests.
 
 ## Middle.java
 
-7. [Explanation](#array-re-allocation) Open `Middle.java`. Look at the method `splitToLetters()`. Its parameters are two Strings, `a` and `b`. We want to put the letters of both strings into the same array, but when we run it, it throws an exception. Why is that? Write your answer in comments in the `splitToLetters()` method.
+6. [Explanation](#array-re-allocation) Open `Middle.java`. Look at the method `splitToLetters()`. Its parameters are two Strings, `a` and `b`. We want to put the letters of both strings into the same array, but when we run it, it throws an exception. Why is that? Write your answer in comments in the `splitToLetters()` method.
 
-8. [Hints](#re-allocation-hints) Implement `reallocate(char[] c, int s)` which takes in a too-small array `c`, and return an array with size increased by amount `s`, and with the elements from `c` copied over.
+7. [Hints](#re-allocation-hints) Implement `reallocate(char[] c, int s)` which takes in a too-small array `c`, and return an array with size increased by amount `s`, and with the elements from `c` copied over.
 
-9. [Explanation](#copying-characters-over) Call `reallocate()` in `splitToLetters()`. For the second argument, tell it to increase the size of `result` by the size of `b`. The `splitToLetters()` method should now work as intended.
+8. [Explanation](#copying-characters-over) Call `reallocate()` in `splitToLetters()`. For the second argument, tell it to increase the size of `result` by the size of `b`. The `splitToLetters()` method should now work as intended.
 
-10. Run `MiddleTests.java` and ensure all test cases pass.
+9. Run `MiddleTests.java` and ensure all test cases pass.
 
 ## End.java
 
-11. [Explanation](#sebald-code) [Hints](#sebald-code-hints) Open `End.java`. Read up on Sebald code, then implement `decode()` to return the original message String from the coded one.
+10. [Explanation](#sebald-code) [Hints](#sebald-code-hints) Open `End.java`. Read up on Sebald code, then implement `decode()` to return the original message String from the coded one.
 
-12. Run `EndTests.java` and ensure all test cases pass.
+11. Run `EndTests.java` and ensure all test cases pass.
 
 ## Finishing Up
 
-13. Zip your project folder and turn it into Canvas. Refer to Lab 1 if you need a refresher for how to do so.
+12. Zip your project folder and turn it into Canvas. Refer to Lab 1 if you need a refresher for how to do so.
 
 # Explanations
 
